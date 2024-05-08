@@ -35,6 +35,9 @@ class ImageDetectionApp:
         self.is_paused = False
         self.detection_thread = None
 
+        # Keep the window on top
+        master.attributes('-topmost', True)
+
     def start_detection(self):
         self.is_detecting = True
         self.is_paused = False
