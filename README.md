@@ -23,10 +23,6 @@ This repository contains a Python script for automating actions in the Pixels ga
     ```
     git clone https://github.com/aymane67/Pixels-Game-Bot.git
     ```
-2. Install dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 1. Run the bot:
