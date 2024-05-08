@@ -8,19 +8,19 @@ from tkinter import ttk
 class ImageDetectionApp:
     def __init__(self, master):
         self.master = master
-        master.title("Image Detection App")
+        master.title("Aymane Elm")
 
         # Set window dimensions
         master.geometry("350x250")
         master.configure(bg="#FFFFFF")
 
-        self.title_label = tk.Label(master, text="Image Detection", font=("Arial", 18, "bold"), bg="#FFFFFF", fg="#333333")
+        self.title_label = tk.Label(master, text="Image detection", font=("Arial", 18, "bold"), bg="#FFFFFF", fg="#333333")
         self.title_label.pack(pady=(20, 10))
 
-        self.start_button = tk.Button(master, text="Start", command=self.start_detection, width=10, bg="#4CAF50", fg="#FFFFFF", font=("Arial", 12))
+        self.start_button = tk.Button(master, text="Start", command=self.start_detection, width=15, bg="#4CAF50", fg="#FFFFFF", font=("Arial", 12, "bold"))
         self.start_button.pack(pady=10)
 
-        self.stop_button = tk.Button(master, text="Stop", command=self.stop_detection, state=tk.DISABLED, width=10, bg="#F44336", fg="#FFFFFF", font=("Arial", 12))
+        self.stop_button = tk.Button(master, text="Stop", command=self.stop_detection, state=tk.DISABLED, width=15, bg="#F44336", fg="#FFFFFF", font=("Arial", 12, "bold"))
         self.stop_button.pack(pady=5)
 
         self.status_label = tk.Label(master, text="Press 'Start' to begin detection.", bg="#FFFFFF", fg="#333333", font=("Arial", 10))
