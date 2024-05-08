@@ -14,7 +14,7 @@ class ImageDetectionApp:
         master.geometry("350x250")
         master.configure(bg="#FFFFFF")
 
-        self.title_label = tk.Label(master, text="Image detection", font=("Arial", 18, "bold"), bg="#FFFFFF", fg="#333333")
+        self.title_label = tk.Label(master, text="Bot Pixels", font=("Arial", 18, "bold"), bg="#FFFFFF", fg="#333333")
         self.title_label.pack(pady=(20, 10))
 
         self.start_button = tk.Button(master, text="Start", command=self.start_detection, width=15, bg="#4CAF50", fg="#FFFFFF", font=("Arial", 12, "bold"))
