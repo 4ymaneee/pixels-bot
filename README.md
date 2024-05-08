@@ -2,6 +2,7 @@
 
 ## Description
 This repository contains a Python script for automating actions in the Pixels game. The bot utilizes computer vision techniques for image detection and automation using OpenCV, PyAutoGUI, and threading. It continuously scans the screen for specific images related to collecting and crafting in the game and performs corresponding actions automatically.
+
 ![Script Image](InterfaceBot.png)
 
 ## Features
